@@ -1,0 +1,226 @@
+body{
+    margin:2px;
+    background-color: rgb(26, 25, 25);
+}
+button{
+    padding: 11px;
+    border: 1px solid rgb(148, 81, 109);
+    border-radius:28px;
+    background-color: rgb(245, 245, 211);
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+button:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.92);
+    font-weight: 200;
+    background-color: beige;
+}
+p{
+    margin: 0 0 20px 30px;
+}
+input{
+    background-color: rgb(240, 219, 194);
+    border: 0;
+    border-radius: 20px;
+    padding: 13px;
+    cursor:pointer;
+}
+input:focus{
+    outline: none;
+}
+h2{
+    margin-left: 50px;
+    font-size: 50px;
+    color: beige;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+h3,h4{
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.titleBar{
+    width:98vw;
+    height:4rem;
+    display: flex;
+    background-color:rgb(26, 25, 25);
+    padding: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    justify-content: center;
+    margin-left: 20px;
+    color: beige;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+.chlogo{
+    height: 2rem;
+    width: 2rem;
+}
+.chlogo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.content{
+    width:100%;
+    height:70vh;
+    display:inline-block;
+    background-color: rgb(39, 32, 32);
+    color: beige;
+    font-size: 70px;
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "YEAR" 1979;
+}
+.rating{
+    height: 10rem;
+    width: 33rem;
+    margin-left: 100px;
+
+}
+.rating img{
+    max-width: 100%;
+}
+.ratingText{
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 180px;
+}
+.Des{
+    float:left;
+    padding-top: 30px;
+    margin-top: 70px;
+}
+.MainIcon{
+    float:right;
+    height: 35rem;
+    width: 40rem;
+    padding-top: 100px;
+    padding-right: 10px;
+}
+.MainIcon img{
+    border-radius: 30px;
+    box-shadow: 10px 10px 70px rgba(0, 0, 0, 2.8);
+}
+
+
+.searchBar{
+    height:150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(26, 25, 25);
+    margin: 0px;
+}
+.SearchBar{
+    height: 6rem;
+    width: 20rem;
+    border-radius: 40px;
+    background-color: rgb(24, 22, 22);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.Browsing{
+    background-color:  rgb(39, 32, 32);
+    padding: 10px;
+}
+.boxes{
+    width: 99vw;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px; 
+}
+.subbox{
+    height: 250px;
+    width: 250px;
+    background-color: beige;
+    border: 3px solid rgb(223, 203, 22);
+    margin:50px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.reviews{
+    height: 40vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+.rbox{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(39, 32, 32);
+    border: 1px solid rgb(151, 140, 140);
+    margin:50px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.rbox img{
+    height: 70%;
+    width: 100%;
+    object-fit: contain;
+}
+.reviewbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.end-p{
+    margin: 0;
+    margin-top: 5px;
+    text-align: center;
+}
+.subbox:hover{
+    box-shadow: 10px 10px 70px rgba(0, 0, 0, 2.8);
+    border: 6px solid purple;
+    transition: all 0.4s;
+}
+.rbox:hover{
+    box-shadow: 10px 10px 70px rgba(0, 0, 0, 2.8);
+    border: 3px solid rgb(255, 0, 0);
+    transition: all 0.4s;
+}
